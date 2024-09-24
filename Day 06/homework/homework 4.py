@@ -1,17 +1,3 @@
-birth_year = int(input("შეიტანეთ თქვენი დაბადების წელი: "))
-current_year = 2024
-print(current_year - birth_year)
-
-height = int(input("შეიტანეთ ოთხკუთხედის სიმაღლე: "))
-width = int(input("შეიტანეთ ოთხკუთხედის სიგანე: "))
-print(height * width)
-print(2 * (height + width))
-
-distance = int(input("შეიტანე შენი სახლიდან სკოლამდე მანძილი კილომეტრებში: "))
-print(distance * 1000)
-print(distance * 100000)
-print(distance * 1000000)
-
 name = input("შენი სახელი: ")
 surname = input("შენი გვარი: ")
 momname = input("დედის სახელი: ")
