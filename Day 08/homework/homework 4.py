@@ -1,0 +1,8 @@
+num1 = int(input("შემოიტანეთ პირველი რიცხვი: "))
+num2 = int(input("შემოიტანეთ მეორე რიცხვვი: "))
+print(num1 > num2)
+print(num1 < num2)
+print(num1 >= num2)
+print(num1 <= num2)
+print(num1 == num2)
+print(num1 != num2)
