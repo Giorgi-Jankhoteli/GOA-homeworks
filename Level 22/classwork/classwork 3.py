@@ -2,19 +2,19 @@
 # ----------------------------
 # len() - length
 
-# list = [1, 2, 3, 4, 5, 6, 7]
-# print(len(list))
+list = [1, 2, 3, 4, 5, 6, 7]
+print(len(list))
 
-# surname = "motiashvili"
-# print(len(surname))
+surname = "motiashvili"
+print(len(surname))
 
-# num = 50
+num = 50
 # print(len(num)) ERROR
 # -----------------------------
 # append() - დაამატოს სიაში რამე ელემენტი (სიის ბოლოს)
 
-# name = ["vano", "giorgi", "luka"]
+name = ["vano", "giorgi", "luka"]
 # Dot notation
-# name.append(15)
-# print(name)
+name.append(15)
+print(name)
 # -------------------------------
