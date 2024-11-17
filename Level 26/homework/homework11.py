@@ -3,6 +3,5 @@ num2 = []
 
 for item in num1:
     if item % 2 == 0:
-        num2.append(item)
-    
+        num2.append(item)        
 print(num2)
