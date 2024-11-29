@@ -1,9 +1,6 @@
-def bool_to_word(boolean):
-    # TODO
-    if boolean == True:
-        return "Yes"
-    else:
-        return "No"
-
-print(bool_to_word(True))
-print(bool_to_word(False))
+def nba_extrap(ppg, mpg):
+    if mpg == 0:
+        return 0
+    
+    num = (ppg / mpg) * 48
+    return round(num, 1)

@@ -1,7 +1,2 @@
-def make_negative( number ):
-    if number > 0:
-        return number * -1
-    elif number < 0:
-        return number * 1
-    else:
-        return 0
+def century(year):
+    return (year - 1) // 100 + 1

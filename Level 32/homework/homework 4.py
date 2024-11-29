@@ -1,7 +1,9 @@
-def opposite(number):
-  # your solution here
-    return number * -1
-
-print(opposite(1))
-print(opposite(14))
-print(opposite(-34))
+def quarter_of(month):
+    if month <= 3: 
+        return 1
+    elif month <= 6:
+        return 2
+    elif month <= 9:
+        return 3
+    elif month <= 12:
+        return 4

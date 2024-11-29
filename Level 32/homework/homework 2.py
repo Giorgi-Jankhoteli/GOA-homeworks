@@ -1,6 +1,11 @@
-def boolean_to_string(b):
-    #your code here
-    return str(b)
-
-print(boolean_to_string(True))
-print(boolean_to_string(False))
+def calculator(x,y,op):
+    if op == "+" and type(x) == int and type(y) == int:
+        return x + y
+    elif op == "-":
+        return x - y
+    elif op == "*":
+        return x * y
+    elif op == "/":
+        return x / y
+    else:
+        return "unknown value"
