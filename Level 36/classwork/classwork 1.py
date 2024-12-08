@@ -1,6 +1,6 @@
 import random
 
-my_list = ["apple", "banana", "cherry"]
+list = ["apple", "banana", "cherry"]
 
-print(random.choice(my_list))
-print(random.choice(my_list))
+print(random.choice(list))
+print(random.choice(list))
