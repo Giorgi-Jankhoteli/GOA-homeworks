@@ -1,0 +1,11 @@
+#head1{
+    font-size: 100px;
+    font-style: italic;
+    color: darkred;
+}
+
+.head2{
+    font-size: 50px;
+    font-style: italic;
+    color: darkblue;
+}
