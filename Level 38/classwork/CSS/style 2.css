@@ -1,0 +1,23 @@
+.div1{
+    width: 70%;
+    height: 558px;
+    background-color: black;
+    font-size: 100px;
+}
+
+.div2{
+    width: 50%;
+    height: 200px;
+    background-color: blue;
+}
+
+.hi{
+    font-size: 50%;
+    color: white;
+}
+
+.div3{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+}
