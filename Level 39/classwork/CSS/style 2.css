@@ -1,0 +1,25 @@
+p{
+    font-size: 100px;
+}
+
+.a{
+    text-decoration: underline red;
+}
+.b{
+    text-decoration: overline blue;
+}
+.c{
+    text-decoration: line-through green;
+}
+.d{
+    text-decoration: overline underline purple;
+}
+.e{
+    text-decoration: overline line-through pink;
+}
+.f{
+    text-decoration: underline line-through yellow;
+}
+.g{
+    text-decoration: underline overline line-through brown;
+}

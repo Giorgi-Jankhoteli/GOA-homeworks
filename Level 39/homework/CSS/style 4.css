@@ -1,0 +1,55 @@
+*{
+    font-size: 21px;
+}
+
+.a{
+    position: absolute;
+    right: 50%;
+    text-decoration: dotted underline green;
+}
+
+.b{
+    position: absolute;
+    right: 75%;
+    text-decoration: line-through blue;
+}
+
+.c{
+    position: absolute;
+    right: 75%;
+    text-decoration: underline darkblue;
+}
+
+.d{
+    position: absolute;
+    right: 50%;
+    text-decoration: line-through green;
+}
+
+.e{
+    text-decoration: line-through darkblue;
+}
+
+.f{
+    text-decoration: overline black;
+}
+
+.g{
+    position: absolute;
+    right: 50%;
+    text-decoration: overline green;
+    color: green;
+}
+
+.h{
+    position: absolute;
+    right: 75%;
+    text-decoration: overline gray;
+    color: grey;
+}
+
+.i{
+    position: absolute;
+    right: 50%;
+    text-decoration: underline dotted green;
+}

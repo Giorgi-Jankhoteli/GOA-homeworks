@@ -1,0 +1,53 @@
+/* Text align */
+
+.hello{
+    text-align: center;
+}
+
+
+
+/* text - decoration */
+
+p{
+    font-size: 30px;
+}
+
+.underline {
+  text-decoration: underline red;
+}
+.overline{
+    text-decoration: overline blue;
+}
+.linethrough{
+    text-decoration: line-through green;
+}
+.goa{
+    text-decoration: underline overline line-through red;
+}
+.decoration1{
+    text-decoration: wavy underline blue;
+}
+.decoration2{
+    text-decoration: dashed underline red;
+}
+.decoration3{
+    text-decoration: dotted underline green;
+}
+.decoration4{
+    text-decoration: double underline yellow;
+}
+
+/* 
+
+decoration type:
+    under-line - ქვედა ხაზი 
+    over-line - ზედა ხაზი
+    line-through - შუა ხაზი
+
+decoration style:
+    wavy - ტალღოვანი
+    solid - სწორი ხაზი
+    dotted - წერტილები
+    dashed - წერტილოვანი ხაზები
+    double - ორი ხაზი
+*/
