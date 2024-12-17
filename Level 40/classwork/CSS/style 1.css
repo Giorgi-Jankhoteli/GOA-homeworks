@@ -1,0 +1,56 @@
+.p{
+    font-size: 30px;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.goa{
+    color: greenyellow;
+    font-size: 60px;
+    text-shadow: 10px 10px 10px blue;
+}
+
+
+/* Font - ფონტი - ტექსტის დამწერლობა,სტილი */
+
+.par1{
+    font-family: serif;
+}
+
+.par2{
+    font-family: sans-serif;
+}
+
+.par3{
+    font-family: monospace;
+}
+
+.par4{
+    font-family: cursive;
+}
+
+.par5{
+    font-family: fantasy;
+}
+
+.par6{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* 
+    serif
+    sans-serif
+    monospace
+    cursive
+    fantasy
+*/

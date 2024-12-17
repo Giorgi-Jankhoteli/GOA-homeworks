@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+TZ+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Playwrite+TZ+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Playwrite+TZ+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Lily+Script+One&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Playwrite+TZ+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Hanalei+Fill&family=Lily+Script+One&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Playwrite+TZ+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Hanalei+Fill&family=Lily+Script+One&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Playwrite+TZ+Guides&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Diplomata&family=Hanalei+Fill&family=Lily+Script+One&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Playwrite+TZ+Guides&family=Train+One&display=swap');
+
+
+p{
+    font-size: 50px;
+}
+.p1{
+    font-family: "Playwrite TZ Guides", cursive;
+}
+.p2{
+    font-family: "Agu Display", serif;
+}
+.p3{
+    font-family: "Montserrat Underline", sans-serif;
+}
+.p4{
+    font-family: "Lily Script One", system-ui;
+}
+.p5{
+    font-family: "Hanalei Fill", system-ui;
+}
+.p6{
+    font-family: "Train One", system-ui;
+}
+.p7{
+    font-family: "Diplomata", serif;
+}

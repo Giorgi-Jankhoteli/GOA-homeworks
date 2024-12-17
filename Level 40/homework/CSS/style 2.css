@@ -1,0 +1,30 @@
+.par1{
+    color: red;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px yellow;
+    font-family: serif;
+}
+.par2{
+    color: blue;
+    font-size: 40px;
+    text-shadow: 20px 20px 10px green;
+    font-family: sans-serif;
+}
+.par3{
+    color: green;
+    font-size: 80px;
+    text-shadow: 30px 30px 20px red;
+    font-family: monospace;
+}
+.par4{
+    color: orange;
+    font-size: 70px;
+    text-shadow: 10px 10px 10px purple;
+    font-family: cursive;
+}
+.par5{
+    color: purple;
+    font-size: 88px;
+    text-shadow: 20px 20px 10px green;
+    font-family: fantasy;
+}
