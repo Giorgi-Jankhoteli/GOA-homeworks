@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+}
+
+table {
+    text-align: left;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    width: 33%;
+    border-bottom: 3px solid rgb(31, 167, 122);
+    box-shadow: -3px 3px 10px rgb(236, 235, 235);
+}
+
+th {
+    background-color: rgb(31, 167, 122);
+    border-collapse: collapse;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 50px;
+    color: white;
+    border-bottom: 1px solid lightgrey;
+}
+
+.mid {
+    background-color: rgb(236, 233, 233);
+    color: rgb(20, 129, 93);
+    font-weight: bolder;
+}
+
+td {
+    border-collapse: collapse;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.rank{
+    border-radius: 7px 0px 0px 0px;
+}
+
+.team{
+    border-radius: 0px 7px 0px 0px;
+}

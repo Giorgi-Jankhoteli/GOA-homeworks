@@ -1,0 +1,37 @@
+.square {
+  list-style-type: square;
+}
+.circle {
+  list-style-type: circle;
+}
+.none {
+  list-style-type: none;
+}
+.disc {
+  list-style-type: disc;
+}
+ul{
+    list-style-position: inside;
+}
+ul{
+    list-style-image: url(#);
+}
+/* 
+    list-type: type position image
+
+    disk - default
+    circle - წრე
+    square - კვადრატები
+    none - არაფერი
+*/
+
+.type {
+  list-style-type: georgian;
+}
+
+
+input[type="text"], input[type="email"]{
+  border: 1px dashed darkblue;
+  border-radius: 5px;
+  outline: none;
+}

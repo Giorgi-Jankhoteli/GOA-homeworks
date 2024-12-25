@@ -1,0 +1,27 @@
+.name{
+    border-radius: 8px;
+    outline: none;
+    padding: 10px 5px;
+}
+
+.sur{
+    border-radius: 8px;
+    outline: none;
+    padding: 10px 5px;
+}
+
+.but{
+    padding: 5px 15px;
+    background-color: red;
+    border-radius: 8px;
+    border: 1px solid brown;
+    color: white;
+}
+
+.but:hover{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 3px dashed yellow;
+    background-color: green;
+}

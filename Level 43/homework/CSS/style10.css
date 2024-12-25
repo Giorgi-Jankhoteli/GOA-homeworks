@@ -1,0 +1,8 @@
+input{
+    padding: 15px;
+    text-align: left;
+}
+
+input::placeholder{
+    text-align: center;
+}

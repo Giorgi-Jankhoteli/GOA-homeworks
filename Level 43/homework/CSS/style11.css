@@ -1,0 +1,28 @@
+table, td, th {
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: larger;
+}
+
+table {
+  border-collapse: collapse;
+  width: 800px;
+  border-bottom: rgb(55, 214, 214) 3px solid;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+th, td {
+  padding: 15px;
+  font-weight: bolder;
+}
+
+td {
+  color: rgb(160, 160, 160);
+}
+
+th {
+  background-color: rgb(55, 214, 214);
+  color: white;
+  text-align: center;
+}
