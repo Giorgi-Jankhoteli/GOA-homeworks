@@ -1,0 +1,99 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 1100px;
+  height: 800px;
+  border: 10px solid black;
+}
+
+div {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border: 5px solid green;
+
+  font-size: 10px;
+  font-family: cursive;
+  text-align: center;
+  color: white;
+}
+
+.item1 {
+  flex: 1 5 100px;
+  align-self: flex-end;
+  order: 0;
+}
+
+.item2 {
+  flex-grow: 1;
+  flex-basis: 300px;
+  align-self: flex-end;
+  order: 1;
+}
+
+.item3 {
+  flex-grow: 1;
+  flex-basis: 300px;
+  align-self: center;
+  order: -1;
+}
+
+main {
+  display: flex;
+  /* display: flex;
+
+    flex-direction - ელემენტს უცვლის მიმართულებას
+
+    flex-direction: column;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+
+
+    justify-content - ელემენტს უცვლის პოზიციას X ღერძზე
+
+    justify-content: center;
+    justify-content: start;
+    justify-content: end;
+
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+
+    align-item - ელემენტს უცვლის პოზიციას Y ღერძზე
+
+    align-items: start;
+    align-items: center;
+    align-items: end;
+
+
+    flex-wrap - ელემენტს ფუთავს მშობელ კონტეინერში
+
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+
+
+    gap: 30px; - ელემენტს შორის ქმნის დაშორებას. იგივეა რაც მარგინ მაგრამ gap არის დახვეწილი და კონკრეეტული + gap გამოიყენება flex-ში
+    column-gap: 50px;
+    row-gap: 50px;
+
+    flex-grow: - როდესაც ამ თვისებას მიანიჭებთ რომელიმე ელემენტს მაშინ ის ელემენტი შეავსებს დარჩენის ადგილს
+
+    flex-basis: - flex ელემენტს ანიჭებს ახალ სიგანეს
+
+    flex-shrink ( ; 5; 0) - როდესაც ამ თვისებას მივანიჭებთ რომელიმე ელემენტს, ის ელემენტი შეიკუმშება
+
+    align-self - კონკრეტულ ელემენტს შეუცვლის პოზიციას Y ღერძზე
+    align-self: flex-end;
+
+    order - ელემენტებს შორის იცვლის პოზიციას
+    order (-1; 0; 1)
+    */
+}
