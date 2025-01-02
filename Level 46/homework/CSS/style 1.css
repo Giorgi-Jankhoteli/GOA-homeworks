@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(15, 15, 15);
+}
+
+.jess{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    width: 120px;
+    padding-top: 10px;
+}
+
+.starter{
+    display: block;
+    padding: 200px 100px 100px 100px;
+    border: 0px solid grey;
+    border-radius: 20px;
+    margin: 200px 700px 200px 700px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    background-color: rgb(31, 29, 29);
+}
+
+h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.london{
+    color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+p{
+    color: rgb(207, 206, 206);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.git{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0px solid grey;
+    margin-top: 10px;
+    padding: 15px 250px 15px 180px;
+    width: 300px;
+}
+
+.font{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0px solid grey;
+    margin-top: 20px;
+    padding: 15px 230px 15px 200px;
+    width: 300px;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.link{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0px solid grey;
+    margin-top: 20px;
+    padding: 15px 250px 15px 180px;
+    width: 300px;
+}
+
+.twit{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0px solid grey;
+    margin-top: 20px;
+    padding: 15px 250px 15px 180px;
+    width: 300px;
+}
+
+.ig{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0px solid grey;
+    margin-top: 20px;
+    padding: 15px 250px 15px 180px;
+    width: 300px;
+}
+
+button{
+    border-radius: 10px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(51, 50, 50);
+}
+
+button:hover{
+    background-color: yellowgreen;
+    color: black;
+}

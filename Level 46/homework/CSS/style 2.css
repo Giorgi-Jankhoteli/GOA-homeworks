@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+img {
+  width: 80%;
+  margin: 50px 0px 30px 200px;
+  border-radius: 15px;
+}
+
+h1 {
+  margin-left: 200px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.head {
+  margin-left: 200px;
+  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-size: 21px;
+}
+
+.starter {
+  background-color: rgb(255, 243, 245);
+  display: block;
+  padding: 5px 20px 30px 10px;
+  margin: 10px 180px 10px 200px;
+  border-radius: 15px;
+}
+
+.header {
+  color: purple;
+  justify-content: center;
+  margin-left: 30px;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+
+.first {
+  margin-left: 50px;
+  font-family: sans-serif;
+}
+
+li {
+  margin-bottom: 10px;
+  margin-top: 25px;
+  padding-left: 25px;
+}
+
+li::marker {
+  color: purple;
+}
+
+.start {
+  margin-left: 200px;
+  margin-top: 30px;
+  font-size: 40px;
+  color: brown;
+  font-weight: 600;
+}
+
+.second {
+  margin-left: 230px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+li::marker {
+  color: brown;
+}
+
+hr {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+.middle {
+  margin-left: 200px;
+  margin-top: 30px;
+  font-size: 40px;
+  color: brown;
+  font-weight: 600;
+}
+
+ol{
+    margin-left: 230px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.bottom{
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 40px;
+    color: brown;
+    font-weight: 600;
+}
+
+p{
+    margin-left: 200px;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 21px;
+    margin-top: 30px;
+}
+
+table{
+    margin-left: 250px;
+    font-family: sans-serif;
+}
+
+.pirveli{
+    padding-left: 350px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+    color: brown;
+}
+.meore{
+    padding-left: 350px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+    color: brown;
+}
+.mesame{
+    padding-left: 350px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+    color: brown;
+}
+.meotxe{
+    padding-left: 350px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+    color: brown;
+}

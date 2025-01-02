@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 0px 0px 60px 0px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding-top: 40px;
+    color: green;
+}
+
+nav ul li:hover{
+    color: yellow;
+    text-shadow: 10px 10px 10px yellow;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+h1{
+    padding-top: 40px;
+    color: green;
+}
+
+h1:hover{
+    color: yellow;
+    text-shadow: 10px 10px 10px yellow;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.login{
+    font-size: 1.5rem;
+    padding-top: 40px;
+    color: green;
+}
+
+.login:hover{
+    color: yellow;
+    text-shadow: 10px 10px 10px yellow;
+    transition: 0.5s;
+    cursor: pointer;
+}
