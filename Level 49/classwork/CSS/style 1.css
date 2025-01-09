@@ -1,0 +1,24 @@
+.square{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    left: 50px;
+    right: 50px;
+    top: 50px;
+    bottom: 50px;
+}
+
+.square2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+/* 
+    relative
+    absolutely
+    sticky
+    fixed
+    static
+*/
