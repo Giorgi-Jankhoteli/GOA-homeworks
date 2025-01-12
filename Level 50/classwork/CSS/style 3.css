@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    background-color: black;
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 15px 45px;
+    background-color: skyblue;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+form div{
+    position: relative;
+}
+
+span{
+    position: absolute;
+    top: 25%;
+    left: 10px;
+    color: #333;
+}

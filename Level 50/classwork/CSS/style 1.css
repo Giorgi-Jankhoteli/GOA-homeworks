@@ -1,0 +1,23 @@
+body{
+    height: 300vh;
+}
+
+.test{
+    width: 300px;
+    height: 600px;
+    background-color: blue;
+}
+
+.parent{
+    position: relative;
+    height: 700px;
+    border: 1px solid black;
+}
+
+.square{
+    position: sticky;
+    top: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}

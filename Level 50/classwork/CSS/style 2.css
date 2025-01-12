@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 300vh;
+}
+
+img{
+    width: 100px;
+    position: relative;
+    left: 800px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    flex-direction: row;
+}
+
+.head{
+    position: fixed;
+    top: 0px;
+}

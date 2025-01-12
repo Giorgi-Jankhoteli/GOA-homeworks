@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-image: url(https://d33wubrfki0l68.cloudfront.net/b4759e96fa9ada8ee8caa4c771fcd503f289d791/6de77/static/triangle_background-9df4fa2e10f0e294779511e99083c2bc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 70px 150px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.head{
+    color: white;
+    font-size: 50px;
+}
+
+span{
+    padding-top: 7px;
+    padding-right: 5px;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 400px 800px;
+}
