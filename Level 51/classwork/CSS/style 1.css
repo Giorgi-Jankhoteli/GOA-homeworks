@@ -1,0 +1,19 @@
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  transition: 1s;
+  font-size: 40px;
+  transform: translate(100px);
+  transform: rotate(90deg);
+}
+
+.square:hover {
+  transform: scale(2);
+}
+
+.square:active {
+  transform: rotate(360deg);
+}
+
+/* Transform - ტრანსფორმაცია(გარდაქმნა) */
