@@ -1,0 +1,17 @@
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: grow;
+    animation-duration: 2s;
+}
+
+@keyframes grow{
+    from{
+        transform: scale(2);
+    }
+
+    to{
+        transform: scale(0.5);
+    }
+}

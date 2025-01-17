@@ -1,0 +1,14 @@
+p{
+    animation-name: change;
+    animation-duration: 2s;
+}
+
+@keyframes change{
+    from{
+        color: black;
+    }
+
+    to{
+        color: blue;
+    }
+}
