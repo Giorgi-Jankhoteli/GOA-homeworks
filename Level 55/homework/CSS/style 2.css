@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", serif;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.main-div{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 130px;
+    margin-left: 720px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 30px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.card{
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+}
+
+h2{
+    padding-top: 30px;
+    padding-right: 140px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+h2:hover{
+    color: aqua;
+}
+
+p{
+    padding-top: 30px;
+    padding-right: 55px;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.price{
+    width: 340px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row-reverse;
+    padding-top: 30px;
+    gap: 7px;
+    color: hsl(178, 100%, 50%);
+}
+
+.etherium{
+    font-size: 20px;
+    margin-top: 2px;
+    justify-content: center;
+}
+
+.time{
+    position: relative;
+    width: 150px;
+    padding-top: 20px;
+    gap: 10px; 
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    left: 45%;
+    bottom: 43px;
+
+}
+
+.clock{
+    position: absolute;
+    left: -30px;
+    top: 23px;
+}
+
+.profile{
+    width: 340px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.face{
+    width: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.create{
+    color: white;
+    opacity: 60%;
+}
+
+.jules{
+    color: white;
+    padding-left: 7px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.jules:hover{
+    color: aqua;
+}

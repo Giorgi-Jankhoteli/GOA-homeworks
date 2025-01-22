@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Karla", serif;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 270px 270px;
+  border: none;
+  box-shadow: 1px 1px 20px grey;
+  border-radius: 10px;
+}
+
+.main {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.price {
+  grid-column-start: 1;
+  grid-row-end: 3;
+  background-color: hsl(179, 62%, 43%);
+  border-radius: 0px 0px 0px 10px;
+}
+
+.why {
+  grid-column-start: 2;
+  grid-row-end: 3;
+  background-color: hsl(179, 54%, 50%);
+  border-radius: 0px 0px 10px 0px;
+}
+
+.join {
+  padding: 30px;
+  color: hsl(179, 62%, 43%);
+}
+
+.free-trial {
+  padding-left: 30px;
+  color: hsl(71, 73%, 54%);
+}
+
+.gain-access {
+  padding-left: 30px;
+  padding-top: 20px;
+  line-height: 30px;
+  color: hsl(218, 33%, 80%);
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.monthly {
+  padding-left: 40px;
+  padding-top: 35px;
+  color: white;
+}
+
+.month {
+  display: flex;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.dollar {
+  color: white;
+}
+
+h4 {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: hsl(204, 10%, 81%);
+  font-weight: 400;
+}
+
+.full {
+  padding-left: 40px;
+  padding-top: 5px;
+  color: hsl(204, 20%, 95%);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  font-weight: 700;
+  padding: 20px 134px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 1px 1px 30px lightslategray;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.why-us {
+  padding-left: 40px;
+  padding-top: 30px;
+  color: white;
+}
+
+.tutorial {
+  padding-left: 40px;
+  padding-top: 20px;
+  color: hsl(206, 10%, 86%);
+  line-height: 22px;
+}
