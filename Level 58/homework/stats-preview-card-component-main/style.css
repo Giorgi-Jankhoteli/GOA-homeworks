@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100vh;
+  font-family: "Inter", serif;
+  background-color: hsl(233, 47%, 7%);
+}
+
+.main-div {
+  background-color: hsl(244, 38%, 16%);
+  height: 52%;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 35%;
+}
+
+img {
+  height: 52%;
+  width: 35%;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.main-div > h1 {
+  color: hsl(0, 0%, 100%);
+  width: 70%;
+  position: relative;
+  left: -30px;
+  bottom: 60px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+.Discover {
+  width: 60%;
+  line-height: 25px;
+  color: hsla(0, 0%, 100%, 0.75);
+  opacity: 70%;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  left: -60px;
+  bottom: 30px;
+}
+
+.stats {
+  width: 66%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 50px;
+  right: 40px;
+  color: white;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+@media (max-width: 1150px) {
+  .main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .main-div > h1{
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 70px;
+    left: 5px;
+  }
+
+  .Discover{
+    position: relative;
+    top: 90px;
+    left: 5px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .stats{
+    height: 25%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    top: 130px;
+    left: 15px;
+    text-align: center;
+  }
+
+  p{
+    font-size: 15px;
+    opacity: 50%;
+  }
+
+  img{
+    height: 25%;
+    position: absolute;
+    top: 50px;
+    width: 90%;
+    max-width: 400px;
+    border: none;
+    border-radius: 5px 5px 0px 0px;
+  }
+}

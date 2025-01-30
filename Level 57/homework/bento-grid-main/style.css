@@ -263,3 +263,17 @@ body {
   top: 75px;
   left: 20px;
 }
+
+@media (max-width: 375px) {
+  .main-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  div, .social-media, .manage, .maintain, .schedule, .grow, .percent,.create, .write {
+    width: 90%;
+  }
+}
