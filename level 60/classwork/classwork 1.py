@@ -1,13 +1,13 @@
-def withdraw(n):
+def withdraw(m):
     sum = [0, 0, 0]
-    while n > 0:
-        if n - 100 >= 0 and n - 100 != 10 and n - 100 != 30:
-            n = n-100
+    while m > 0:
+        if m - 100 >= 0 and m - 100 != 10 and m - 100 != 30:
+            m = m-100
             sum[0] += 1
-        elif n - 50 >= 0 and (n - 50) != 10 and (n - 50) != 30:
-            n = n-50
+        elif m - 50 >= 0 and (m - 50) != 10 and (m - 50) != 30:
+            m = m-50
             sum[1] += 1
         else:
-            n = n-20
+            m = m-20
             sum[2] += 1
-    return sum
+    return sum   
