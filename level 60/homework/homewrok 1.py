@@ -1,1 +1,1 @@
-# we will discuss it on the next lesson
+# WE WILL DISCUSS ON THE NEXT LESSON
